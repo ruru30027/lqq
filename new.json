@@ -161,7 +161,7 @@
       "searchable": 2,
       "filterable": 1,
       "quickSearch": 0,
-      "ext": "荐片.js"
+      "ext": "https://ghproxy.cn/https://raw.githubusercontent.com/ruru30027/tBox/refs/heads/main/newjs/荐片.js"
     },{
       "key": "drpyS_人人视频",
       "name": "人人视频(DS)",
@@ -170,7 +170,7 @@
       "searchable": 2,
       "filterable": 0,
       "quickSearch": 0,
-      "ext": "人人视频.js"
+      "ext": "https://ghproxy.cn/https://raw.githubusercontent.com/ruru30027/tBox/refs/heads/main/newjs/人人视频.js"
     },{
 		"key": "nanf",
 		"name": "🀁南风短剧┃夸克",
