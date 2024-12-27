@@ -154,6 +154,24 @@
     "keepPlayFileKeywords": "",
     "selectedPlayer": "0" 
   },{
+      "key": "drpyS_荐片",
+      "name": "荐片(DS)",
+      "type": 4,
+      "api": "http://localhost:5757/api/荐片",
+      "searchable": 2,
+      "filterable": 1,
+      "quickSearch": 0,
+      "ext": "荐片.js"
+    },{
+      "key": "drpyS_人人视频",
+      "name": "人人视频(DS)",
+      "type": 4,
+      "api": "http://localhost:5757/api/人人视频",
+      "searchable": 2,
+      "filterable": 0,
+      "quickSearch": 0,
+      "ext": "人人视频.js"
+    },{
 		"key": "nanf",
 		"name": "🀁南风短剧┃夸克",
 		"type": 5,
