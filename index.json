@@ -126,6 +126,20 @@
     "keepPlayFileKeywords": "",
     "selectedPlayer": "0"
   },{
+            "key": "huban",
+            "name": "🤹‍♂️虎斑┃网盘",
+            "type": 5,
+            "searchable": 1,
+            "filterClass": "",
+            "firstClass": "",
+            "filterPlay": "",
+            "firstPlay": "",
+            "ext": "huban.js",
+            "flagable": 0,
+            "filterPlayFileKeywords": "",
+            "keepPlayFileKeywords": "",
+            "selectedPlayer": "0"
+        },{
 		"key": "ouge",
 		"name": "🏰欧歌┃网盘",
 		"type": 5,
