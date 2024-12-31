@@ -140,6 +140,20 @@
             "keepPlayFileKeywords": "",
             "selectedPlayer": "0"
         },{
+            "key": "baipiao",
+            "name": "❈白嫖┃网盘",
+            "type": 5,
+            "searchable": 1,
+            "filterClass": "",
+            "firstClass": "",
+            "filterPlay": "",
+            "firstPlay": "",
+            "ext": ".js",
+            "flagable": 0,
+            "filterPlayFileKeywords": "",
+            "keepPlayFileKeywords": "",
+            "selectedPlayer": "0"
+        },{
 		"key": "ouge",
 		"name": "🏰欧歌┃网盘",
 		"type": 5,
