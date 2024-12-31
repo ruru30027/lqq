@@ -1,5 +1,5 @@
 //下面是发布代码
-const webSite='http://feimaouc.cloud:666';
+const webSite='http://1.95.79.193/';
 
    function newfetch(url, options) {
        options = options || {};
