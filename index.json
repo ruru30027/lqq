@@ -363,6 +363,48 @@
     "keepPlayFileKeywords": "",
     "selectedPlayer": "0"
   },{
+    "key": "zonghedanmu1",
+    "name": "综合弹幕1",
+    "type": 5,
+    "searchable": 0,
+    "filterClass": "",
+    "firstClass": "",
+    "filterPlay": "",
+    "firstPlay": "",
+    "ext": "danmu_zonghe1.js",
+    "flagable": 0,
+    "filterPlayFileKeywords": "",
+    "keepPlayFileKeywords": "",
+        "danmu":"1"
+  },{
+    "key": "zonghedanmu2",
+    "name": "综合弹幕2",
+    "type": 5,
+    "searchable": 0,
+    "filterClass": "",
+    "firstClass": "",
+    "filterPlay": "",
+    "firstPlay": "",
+    "ext": "danmu_zonghe2.js",
+    "flagable": 0,
+    "filterPlayFileKeywords": "",
+    "keepPlayFileKeywords": "",
+        "danmu":"1"
+  },{
+    "key": "dandanplay",
+    "name": "弹弹play[动漫]",
+    "type": 5,
+    "searchable": 0,
+    "filterClass": "",
+    "firstClass": "",
+    "filterPlay": "",
+    "firstPlay": "",
+    "ext": "dandanplay.js",
+    "flagable": 0,
+    "filterPlayFileKeywords": "",
+    "keepPlayFileKeywords": "",
+        "danmu":"1"
+	},{
 		"key": "zhenbuka",
 		"name": "🚀真不卡┃嗅探",
 		"type": 6,
