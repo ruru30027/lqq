@@ -167,7 +167,7 @@
             "filterPlayFileKeywords": "",
             "keepPlayFileKeywords": "",
             "selectedPlayer": "0"
-        },{
+        },}
 		"key": "ouge",
 		"name": "🏰欧歌┃网盘",
 		"type": 5,
@@ -419,6 +419,20 @@
     "keepPlayFileKeywords": "",
         "danmu":"1"
 	},{
+    "key": "tt776b",
+    "name": "🌀风车动漫┃嗅探",
+    "type": 6,
+    "searchable": 1,
+    "filterClass": "",
+    "firstClass": "",
+    "filterPlay": "",
+    "firstPlay": "",
+    "ext": "tt776b_soup.json",
+    "flagable": 0,
+    "filterPlayFileKeywords": "",
+    "keepPlayFileKeywords": "",
+    "selectedPlayer": "0"
+  }{
 		"key": "zhenbuka",
 		"name": "🚀真不卡┃嗅探",
 		"type": 6,
