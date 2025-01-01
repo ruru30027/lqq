@@ -1,3 +1,4 @@
+
 class DanMu {
   constructor() {
       /**
@@ -36,7 +37,7 @@ class BackData {
 }
 
 
-//let result = await searchDanMu("大奉打更人","03");
+//let result = await searchDanMu("熊猫计划","1");
 //console.log(result);
 
 
@@ -52,7 +53,7 @@ async function searchDanMu(name, episode, playurl) {
   try {
     let all = [];
     // MARK: - 实现你的弹幕搜索逻辑
-    let ddpList = await searchByDandanPlay(name, episode, playurl || undefined);
+    let ddpList = await searchByDandanPlay(name, episode || "1", playurl || undefined);
     all = all.concat(ddpList);
     backData.data = all;
   } catch (error) {
@@ -67,60 +68,76 @@ async function searchDanMu(name, episode, playurl) {
 
 async function searchByDandanPlay(name, episode, playurl) {
   let list = [];
+  const retries = 3;
+
   try {
-    // 1. 发起搜索请求
+    // 发起搜索请求
     const searchResponse = await req(
-      `https://api.so.360kan.com/index?force_v=1&kw=${encodeURI(name)}'&from=&pageno=1&v_ap=1&tab=all`,
+      `https://api.so.360kan.com/index?force_v=1&kw=${encodeURI(name)}&from=&pageno=1&v_ap=1&tab=all`,
     );
     const searchResult = await searchResponse.json();
 
-    // 2. 检查搜索结果并获取剧集ID
-    if (searchResult.data.longData.rows[0].seriesPlaylinks?.length > 0) {
+    // 获取 episodeId
+    let episodeId = "";
+    const seriesPlaylinks = searchResult.data.longData.rows[0].seriesPlaylinks;
+    const playlinks = searchResult.data.longData.rows[0].playlinks;
+
+    if (seriesPlaylinks?.length > 0) {
       const episodeIndex = parseInt(episode, 10) - 1;
-      let episodeId = searchResult.data.longData.rows[0].seriesPlaylinks[episodeIndex]?.url;
-      if (!episodeId) {
-        episodeId = Object.values(searchResult.data.longData.rows[0].playlinks)[0];
-      }
-      console.log(episodeId);
+      episodeId = seriesPlaylinks[episodeIndex]?.url;
+    }
 
-      // 3. 获取弹幕数据
-      let danMuResult;
-      let retryCount = 0;
-      const maxRetries = 3;
-      while (retryCount < maxRetries) {
-        const danMuResponse = await req(`https://fc.lyz05.cn/?url=${episodeId}`);
-        danMuResult = await danMuResponse.text();
-
-        // 4. 解析弹幕XML
-        const regex = /<d p="([^"]+)">([^<]+)<\/d>/g;
-        let match;
-        while ((match = regex.exec(danMuResult)) !== null) {
-          const pAttributes = match[1].split(','); // 分割 p 属性
-          const time = parseFloat(pAttributes[0]); // 提取 time
-          const content = match[2]; // 提取 content
-          list.push({ time, content });
-        }
-
-        // 如果找到了匹配项，退出循环
-        if (list.length > 0) {
+    if (!episodeId) {
+      const prioritySources = ['bilibili1', 'qq', 'qiyi', 'youku', 'imgo'];
+      for (const source of prioritySources) {
+        if (playlinks[source]) {
+          episodeId = playlinks[source];
           break;
         }
-
-        // 如果没有找到匹配项，重试
-        retryCount++;
-        if (retryCount < maxRetries) {
-          console.log(`No matches found, retrying... (${retryCount}/${maxRetries})`);
-        }
       }
-
-      // 如果重试后仍然没有找到匹配项
-      if (list.length === 0) {
-        console.log('No matches found after retries.');
+      if (!episodeId) {
+        episodeId = Object.values(playlinks)[0];
       }
     }
+
+    console.log(episodeId);
+    // 检查 episodeId 是否为空
+    if (!episodeId) {
+      console.log('episodeId is empty, skipping danmu request.');
+      await toast('未匹配到官方链接，无法查找弹幕!');
+      return list;
+    }
+
+    // 获取弹幕数据
+    let retryCount = 0;
+    while (retryCount < retries) {
+      const danMuResponse = await req(`https://fc.lyz05.cn/?url=${episodeId}`);
+      const danMuResult = await danMuResponse.text();
+
+      const regex = /<d p="([^"]+)">([^<]+)<\/d>/g;
+      let match = regex.exec(danMuResult);
+
+      if (match) {
+        while (match !== null) {
+          const [_, pAttributes, content] = match;
+          const time = parseFloat(pAttributes.split(',')[0]);
+          list.push({ time, content });
+          match = regex.exec(danMuResult);
+        }
+        break; // 成功解析，退出重试循环
+      } else {
+        retryCount++;
+        console.log(`No match found, retrying... (${retryCount}/${retries})`);
+        await toast(`弹幕数据获取失败，正在重试... (${retryCount}/${retries})`);
+        await new Promise(resolve => setTimeout(resolve, 1000)); // 等待1秒后重试
+      }
+    }
+
   } catch (error) {
-    console.error('Error in searchByDandanPlay:', error);
+    console.error('Error:', error);
+    await toast('弹幕数据解析失败，请稍后重试!');
   }
+
   return list;
 }
 
