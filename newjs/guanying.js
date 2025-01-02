@@ -1,5 +1,5 @@
 //观影站点的cookie
-let gygCookie = "替换你的cookie";
+let gygCookie = "BT_auth=b611vst9YVaySjHMUFd2WHxfz4YquwZHMDo1_INSQZKLNRePRex3qtaiFabSUo0Vy9kW7llhhfjpVDkdu_a_5kd3g4O2CPUHODVFh4UUGRYsibaF9D35JLFIKXtdApW6NDOxWL6tbEXy4dYGeGDt2_MAX_wJOYjBG90ztvcsjvoPaIOlMOyp0tkT5w;BT_cookietime=0398v8F_d-nXSn-ZAaadxeBGmZgQbCJMYDMGrIlWkb3mOa_MLrwm;PHPSESSID=1l7i880iqej2d3ngsqrdjdpeta;vrg_sc=ac5d342ac9a0502b535dfa00b18ea7a8;vrg_go=1;";
 
 // 提取夸克网盘链接的数量,不要太多（否则造成读取详情页卡）
 const QUARK_COUNT = 3; 
