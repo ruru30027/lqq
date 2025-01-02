@@ -741,6 +741,20 @@
 		"keepPlayFileKeywords": "",
 		"selectedPlayer": "0"
 	},{
+    "key": "yiso",
+    "name": "夸克易搜┃仅搜索",
+    "type": 5,
+    "searchable": 1,
+    "filterClass": "",
+    "firstClass": "",
+    "filterPlay": "",
+    "firstPlay": "",
+    "ext": "yiso.js",
+    "flagable": 0,
+    "filterPlayFileKeywords": "",
+    "keepPlayFileKeywords": "",
+    "selectedPlayer": "0"
+  },{
 		"key": "yunpan",
 		"name": "夸克云盘┃仅搜索",
 		"type": 5,
