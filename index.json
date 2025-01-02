@@ -238,6 +238,20 @@
 		"keepPlayFileKeywords": "",
         "selectedPlayer":"0"
 	},{
+    "key": "bdbd",
+    "name": "修罗影视|直连",
+    "type": 5,
+    "searchable": 0,
+    "filterClass": "",
+    "firstClass": "",
+    "filterPlay": "",
+    "firstPlay": "",
+    "ext": "bd.js",
+    "flagable": 0,
+    "filterPlayFileKeywords": "",
+    "keepPlayFileKeywords": "",
+    "selectedPlayer": "0"
+  },{
 		"key": "cfkj86",
 		"name": "🥇金牌┃直链",
 		"type": 5,
