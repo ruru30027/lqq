@@ -168,6 +168,20 @@
             "keepPlayFileKeywords": "",
             "selectedPlayer": "0"
         },{
+    "key": "guanying",
+    "name": "📺观影┃网盘",
+    "type": 5,
+    "searchable": 1,
+    "filterClass": "",
+    "firstClass": "",
+    "filterPlay": "",
+    "firstPlay": "",
+    "ext": "guanying.js",
+    "flagable": 0,
+    "filterPlayFileKeywords": "",
+    "keepPlayFileKeywords": "",
+    "selectedPlayer": "0"
+	},{
 		"key": "ouge",
 		"name": "🏰欧歌┃网盘",
 		"type": 5,
