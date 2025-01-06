@@ -322,6 +322,20 @@
 		"keepPlayFileKeywords": "",
         "selectedPlayer":"0"
 	},{
+    "key": "tiantian",
+    "name": "天天影视┃直链",
+    "type": 5,
+    "searchable": 1,
+    "filterClass": "",
+    "firstClass": "",
+    "filterPlay": "",
+    "firstPlay": "",
+    "ext": "tiantian.js",
+    "flagable": 0,
+    "filterPlayFileKeywords": "",
+    "keepPlayFileKeywords": "",
+    "selectedPlayer": "0"
+	},{
 		"key": "xiaopingguo",
 		"name": "🍎苹果┃直链",
 		"type": 5,
