@@ -416,6 +416,20 @@
 		"keepPlayFileKeywords": "",
 		"selectedPlayer": "1"
 	},{
+      "key": "pipixia",
+      "name": "皮皮虾┃嗅探",
+      "type": 6,
+      "searchable": 1,
+      "filterClass": "",
+      "firstClass": "",
+      "filterPlay": "",
+      "firstPlay": "",
+      "ext": "https://ghproxy.cn/https://raw.githubusercontent.com/tt9912/tBox/refs/heads/main/soup/皮皮虾_soup.json",
+      "flagable": 0,
+      "filterPlayFileKeywords": "",
+      "keepPlayFileKeywords": ".mkv,.m3u8,.mp4",
+     "selectedPlayer": "0"
+  },{
 		"key": "laowang",
 		"name": "🃏老王┃嗅探",
 		"type": 6,
