@@ -306,6 +306,20 @@
     "keepPlayFileKeywords": "",
     "selectedPlayer": "0"
   },{
+      "key": "oule",
+      "name": "欧乐┃直链",
+      "type": 5,
+      "searchable": 1,
+      "filterClass": "",
+      "firstClass": "",
+      "filterPlay": "",
+      "firstPlay": "",
+      "ext": "oule2.js",
+      "flagable": 0,
+      "filterPlayFileKeywords": "",
+      "keepPlayFileKeywords": "",
+    "selectedPlayer": "0"
+  },{
 		"key": "cfkj86",
 		"name": "🥇金牌┃直链",
 		"type": 5,
