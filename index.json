@@ -182,6 +182,19 @@
     "keepPlayFileKeywords": "",
     "selectedPlayer": "0"
 	},{
+            "key": "drpyS_ikanbot",
+            "name": "影视 ┃ 🤖ikanbot(DS)",
+            "type": 1,
+            "searchable": 1,
+            "filterClass": "",
+            "firstClass": "",
+            "filterPlay": "",
+            "firstPlay": "",
+            "ext": "http://45.194.32.170:5757/api/ikanbot",
+            "flagable": 0,
+            "filterPlayFileKeywords": "",
+            "keepPlayFileKeywords": ""
+        },{
 		"key": "ouge",
 		"name": "🏰欧歌┃网盘",
 		"type": 5,
