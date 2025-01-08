@@ -210,6 +210,33 @@
 		"keepPlayFileKeywords": "",
 		"selectedPlayer": "0"
 	},{
+    "key": "ainidj",
+    "name": "爱你 ┃ 短剧",
+    "type": 6,
+    "searchable": 1,
+    "filterClass": "",
+    "firstClass": "",
+    "filterPlay": "",
+    "firstPlay": "",
+    "ext": "爱你短剧_soup.json",
+    "flagable": 0,
+    "filterPlayFileKeywords": "",
+    "keepPlayFileKeywords": "",
+    "selectedPlayer": "0"
+	},{
+    "key": "腾云驾雾[官]",
+    "name": "影视 ┃ 腾云驾雾[官]",
+    "type": 1,
+    "searchable": 1,
+    "filterClass": "",
+    "firstClass": "",
+    "filterPlay": "",
+    "firstPlay": "",
+    "ext": "http://45.194.32.170:5757/api/腾云驾雾[官]",
+    "flagable": 1,
+    "filterPlayFileKeywords": "",
+    "keepPlayFileKeywords": ""
+  },{
 		"key": "cloud189",
 		"name": "🐋雷鲸┃天翼",
 		"type": 5,
