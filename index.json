@@ -390,6 +390,34 @@
     "keepPlayFileKeywords": "",
     "selectedPlayer": "0"
 	},{
+      "key": "aqyiys",
+      "name": "🥝奇奇爱┃官",
+      "type": 5,
+      "searchable": 1,
+      "filterClass": "",
+      "firstClass": "",
+      "filterPlay": "",
+      "firstPlay": "",
+      "ext": "https://ghproxy.cn/https://raw.githubusercontent.com/ruru30027/lqq/refs/heads/main/newjs/buye_daozhang.js",
+      "flagable": 1,
+      "filterPlayFileKeywords": "",
+      "keepPlayFileKeywords": "",
+      "webSite": "http://drpys.540734621.xyz:31038/api/奇珍异兽[官]?pwd=yydffxz"
+    },{
+    "key": "qizhen",
+    "name": "奇珍异兽[官]",
+    "type": 5,
+    "searchable": 1,
+    "filterClass": "",
+    "firstClass": "",
+    "filterPlay": "",
+    "firstPlay": "",
+    "ext": "https://ghproxy.cn/https://raw.githubusercontent.com/ruru30027/lqq/refs/heads/main/newjs/buye_daozhang.js",
+    "flagable": 1,
+    "filterPlayFileKeywords": "",
+    "keepPlayFileKeywords": "",
+    "webSite":"https://drpy.yanshanxiyu.top/api/奇珍异兽[官]"
+  },{
 		"key": "xiaopingguo",
 		"name": "🍎苹果┃直链",
 		"type": 5,
