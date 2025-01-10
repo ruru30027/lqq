@@ -416,6 +416,20 @@
     "filterPlayFileKeywords": "",
     "keepPlayFileKeywords": ""
   },{
+      "key": "网飞猫",
+      "name": "🐱网飞猫┃嗅探",
+      "type": 6,
+      "searchable": 1,
+      "filterClass": "",
+      "firstClass": "",
+      "filterPlay": "",
+      "firstPlay": "",
+      "ext": "https://ghproxy.cn/https://raw.githubusercontent.com/ruru30027/lqq/refs/heads/main/soup/网飞猫_soup.json",
+      "flagable": 0,
+      "filterPlayFileKeywords": "",
+      "keepPlayFileKeywords": "",
+     "selectedPlayer": "0"
+  },{
 		"key": "zxzja",
 		"name": "🌎在线之家┃嗅探",
 		"type": 6,
