@@ -9,8 +9,9 @@ const customText = {
     '肯德基资源站': "XiangxiuNB",
     '云盘盘': "yunpanpan",
     '栽花云': "zaihuayun",
-     '网盘收藏': "yunpanshare",
-     '奥斯卡': "Oscar_4Kmovies",
+    '网盘收藏': "yunpanshare",
+    '奥斯卡': "Oscar_4Kmovies",
+    'leo网盘搜集':"leoziyuan",
 };
 
 
