@@ -5,6 +5,12 @@ const customText = {
     '夸克云盘盘': "kuakeyun",
     '夸克云盘综合': "Quark_Movies",
     'UC夸克资源': "ucquark",
+    '资源宇宙': "tgsearchers",
+    '肯德基资源站': "XiangxiuNB",
+    '云盘盘': "yunpanpan",
+    '栽花云': "zaihuayun",
+     '网盘收藏': "yunpanshare",
+     '奥斯卡': "Oscar_4Kmovies",
 };
 
 
