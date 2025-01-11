@@ -11,7 +11,7 @@ const customText = {
     '栽花云': "zaihuayun",
     '网盘收藏': "yunpanshare",
     '奥斯卡': "Oscar_4Kmovies",
-    'leo网盘搜集':"leoziyuan",
+    'leo网盘搜集': "leoziyuan",
 };
 
 
