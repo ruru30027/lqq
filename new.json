@@ -642,6 +642,20 @@
 		"keepPlayFileKeywords": "",
 		"selectedPlayer": "0"
 	},{
+    "key": "tgsou",
+    "name": "tgsou",
+    "type": 5,
+    "searchable": 1,
+    "filterClass": "",
+    "firstClass": "",
+    "filterPlay": "",
+    "firstPlay": "",
+    "ext": "https://ghproxy.cn/https://raw.githubusercontent.com/ruru30027/lqq/refs/heads/main/newjs/tgsou.js",
+    "flagable": 0,
+    "filterPlayFileKeywords": "",
+    "keepPlayFileKeywords": "",
+    "selectedPlayer": "0"
+  },{
 		"key": "yunpan",
 		"name": "夸克云盘┃仅搜索",
 		"type": 5,
