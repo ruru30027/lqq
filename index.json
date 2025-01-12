@@ -250,6 +250,20 @@
     "filterPlayFileKeywords": "",
     "keepPlayFileKeywords": ""
   },{
+      "key": "youku ",
+      "name": "优酷┃官",
+      "type": 5,
+      "searchable": 1,
+      "filterClass": "",
+      "firstClass": "",
+      "filterPlay": "",
+      "firstPlay": "",
+      "ext": "https://ghproxy.cn/https://raw.githubusercontent.com/ruru30027/lqq/refs/heads/main/newjs/buye_daozhang.js",
+      "flagable": 1,
+      "filterPlayFileKeywords": "",
+      "keepPlayFileKeywords": "",
+      "webSite": "http://t4.540734621.xyz:8888/video/youku?token=yydf"
+    },{
 		"key": "cloud189",
 		"name": "🐋雷鲸┃天翼",
 		"type": 5,
