@@ -1,4 +1,4 @@
-const webSite = 'https://smdyo.top';
+const webSite = 'http://xn--esstbv41m2ra.top/';
 
   function newfetch(url, options) {
     options = options || {};
