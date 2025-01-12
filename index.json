@@ -585,6 +585,19 @@
       "keepPlayFileKeywords": "",
      "selectedPlayer": "0"
   },{
+    "key": "欧乐嗅探",
+    "name": "😁欧乐┃嗅探",
+    "type": 6,
+    "searchable": 1,
+    "filterClass": "",
+    "firstClass": "",
+    "filterPlay": "",
+    "firstPlay": "",
+    "ext": "欧乐_soup.json",
+    "flagable": 0,
+    "filterPlayFileKeywords": "",
+    "keepPlayFileKeywords": ""
+  },{
 		"key": "zhenbuka",
 		"name": "🚀真不卡┃嗅探",
 		"type": 6,
