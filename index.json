@@ -598,6 +598,48 @@
     "filterPlayFileKeywords": "",
     "keepPlayFileKeywords": ""
   },{
+    "key": "voflix",
+    "name": "voflix",
+    "type": 5,
+    "searchable": 1,
+    "filterClass": "",
+    "firstClass": "",
+    "filterPlay": "",
+    "firstPlay": "",
+    "ext": "测试模版.js",
+    "flagable": 0,
+    "filterPlayFileKeywords": "",
+    "keepPlayFileKeywords": "",
+        "webSite":"https://www.voflix.fun/vodshow/{cateId}--------{catePg}---.html||https://www.voflix.fun/vodsearch/-------------.html?wd={wd}||1#电影,2#电视剧,3#综艺,4#动漫,39#短剧"
+  },{
+    "key": "新视觉",
+    "name": "新视觉影院",
+    "type": 5,
+    "searchable": 1,
+    "filterClass": "",
+    "firstClass": "",
+    "filterPlay": "",
+    "firstPlay": "",
+    "ext": "测试模版.js",
+    "flagable": 0,
+    "filterPlayFileKeywords": "",
+    "keepPlayFileKeywords": "",
+        "webSite":"https://a.6080z.com/vodshow/{cateId}--------{catePg}---.html||https://a.6080z.com/vodsearch/-------------.html?wd={wd}||1#电影,2#电视剧,3#综艺,4#动漫,39#短剧"
+  },{
+    "key": "星辰影视",
+    "name": "星辰影视",
+    "type": 5,
+    "searchable": 1,
+    "filterClass": "",
+    "firstClass": "",
+    "filterPlay": "",
+    "firstPlay": "",
+    "ext": "测试模版.js",
+    "flagable": 0,
+    "filterPlayFileKeywords": "",
+    "keepPlayFileKeywords": "",
+        "webSite":"https://xingchenys.com/vod/type/id/{cateId}/page/{catePg}.html||https://xingchenys.com/vod/search/wd/{wd}.html||1#电影,2#电视剧,3#综艺,4#动漫,19#短剧"
+        },{
 		"key": "zhenbuka",
 		"name": "🚀真不卡┃嗅探",
 		"type": 6,
