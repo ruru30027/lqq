@@ -598,6 +598,20 @@
     "filterPlayFileKeywords": "",
     "keepPlayFileKeywords": ""
   },{
+  "key": "555dy",
+  "name": "555dy",
+  "type": 6,
+  "searchable": 1,
+  "filterClass": "",
+  "firstClass": "",
+  "filterPlay": "",
+  "firstPlay": "",
+  "ext": "555dy_soup.json",
+  "flagable": 0,
+  "filterPlayFileKeywords": "",
+  "keepPlayFileKeywords": "",
+        "webCookie":"hasVisitedIndex=true"
+ },{
 		"key": "zhenbuka",
 		"name": "🚀真不卡┃嗅探",
 		"type": 6,
