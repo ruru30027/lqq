@@ -715,24 +715,6 @@ let vodpic = '';
 
 
 async function homeContent() {
-const classData = [
-    { "type_id": 1, "type_name": "网盘推送无首页数据，只有历史和收藏记录" }
-];
-       const list = [{
-           vod_id: '',
-           vod_name: '网盘推送无首页源',
-           vod_remarks: '左上角的"三"点进去推送',
-           vod_pic: ''
-         }];
-
-          return JSON.stringify({
-         code: 1,
-         msg: "数据列表",
-         page: "1",
-         limit: "20",
-         list: list,
-         class: classData
-       });
 }
 
 async function searchContent(keyword) {
